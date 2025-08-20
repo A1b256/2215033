@@ -18,7 +18,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Check if credentials match any user
+   
     const user = USERS.find(
       u => u.email === email && u.password === password
     )

@@ -13,7 +13,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Simple validation (replace with real auth in production)
+    
     if (email === 'user@example.com' && password === 'password') {
       setLoggedIn(true)
       setError('')
